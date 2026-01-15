@@ -863,6 +863,16 @@ img {
   margin: var(--spacing-md) 0;
 }
 
+.post-content img {
+  display: block;
+  margin: var(--spacing-lg) auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-content img[alt] {
+  margin-bottom: var(--spacing-sm);
+}
+
 /* Selection */
 ::selection {
   background: var(--primary-light);

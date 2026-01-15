@@ -30,6 +30,10 @@ The results were mind-blowing:
 
 On my laptop with 8 GB of RAM, this means — theoretically — I could spin up **millions of goroutines** without swapping. Of course, this ignores other processes and the work done inside each goroutine, but it still demonstrates just how lightweight goroutines are.
 
+The following table illustrates how goroutines scale with increasing memory, showing the impressive scalability:
+
+![Analysis of goroutines possible within given memory]({{ "/assets/images/post2-analysis-image.jpeg" | relative_url }})
+
 ---
 
 ### Source Code & Analysis
